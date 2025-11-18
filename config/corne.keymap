@@ -23,35 +23,35 @@
             display-name = "NUMB";
 
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4    &kp N5       &trans   &trans    &kp UP    &trans     &trans  &kp BSPC
-&kp TAB    &kp N6  &kp N7  &kp N8    &kp N9    &kp N0       &trans   &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&kp LSHFT  &trans  &trans  &trans    &trans    &trans       &trans   &trans    &trans    &trans     &trans  &kp DEL
-                 &trans &kp LALT  &kp LGUI  &kp SPACE       &kp RET  &trans    &kp CAPS &kp K_MUTE
+&trans    &kp N1  &kp N2  &kp N3    &kp N4    &kp N5       &trans   &trans    &kp UP    &trans     &trans  &trans
+&trans    &kp N6  &kp N7  &kp N8    &kp N9    &kp N0       &trans   &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans    &trans    &trans       &trans   &trans    &trans    &trans     &trans  &trans
+                 &trans &trans  &trans  &trans       &trans  &trans    &trans &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_DN C_VOL_UP>;
+            sensor-bindings = <&inc_dec_kp PG_DN PG_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         raise_layer {
-            display-name = "SP&BT";
+            display-name = "SPBT";
 
             bindings = <
-&kp ESCAPE  &kp EXCL    &kp AT        &kp HASH      &kp DLLR      &kp PRCNT      &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&kp TAB     &trans      &trans        &trans        &trans        &trans         &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LSHFT   &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bootloader    &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                            &trans    &trans      &trans      &trans         &trans  &trans    &trans &kp K_MUTE
+&trans  &kp EXCL    &kp AT        &kp HASH      &kp DLLR      &kp PRCNT      &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
+&trans     &trans      &trans        &trans        &trans        &trans         &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
+&trans   &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
+                            &trans    &trans      &trans      &trans         &trans  &trans    &trans &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 Photoshop_layer {
-            display-name = "PTS";
+            display-name = "PTS!";
 
             bindings = <
-&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4    &kp N5       &trans   &trans    &kp UP    &trans     &trans  &kp BSPC
-&kp TAB    &kp N6  &kp N7  &kp N8    &kp N9    &kp N0       &trans   &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&kp LSHFT  &trans  &trans  &trans    &trans    &trans       &trans   &trans    &trans    &trans     &trans  &kp DEL
-                 &trans &kp LALT  &kp LGUI  &kp SPACE       &kp RET  &trans    &kp CLCK &kp K_MUTE
+&kp ESCAPE     &kp Q  &kp W  &kp E         &kp R     &kp T        &kp Y    &kp U        &kp I       &kp O    &kp P     &kp BSPC
+&mt LCTRL TAB  &kp A  &kp S  &kp D         &kp F     &kp G        &kp H    &kp J        &kp K       &kp L    &kp SEMI  &kp SQT
+&kp LSHFT      &kp Z  &kp X  &kp C         &kp V     &kp B        &kp N    &kp M        &kp COMMA   &kp DOT  &kp FSLH  &kp DEL
+                   &tog 3 &kp LEFT_ALT  &kp LGUI  &kp SPACE       &kp RET  &lt 1 SPACE  &lt 2 CAPS &kp K_MUTE
             >;
 
             sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW &inc_dec_kp C_VOL_DN C_VOL_UP>;
