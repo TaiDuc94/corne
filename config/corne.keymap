@@ -22,7 +22,7 @@
                    &tog 3 &kp LEFT_ALT  &kp LGUI  &kp SPACE    &kp RET  &lt 1 SPACE  &lt 2 CLCK &kp K_MUTE
             >;
 
-            sensor-bindings = <&inc_dec_kp LEFT_BRACKET RIGHT_BRACKET &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp LEFT_BRACKET RIGHT_BRACKET &inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         lower_layer {
@@ -35,7 +35,7 @@
                  &trans &kp LALT  &kp LGUI  &kp SPACE       &kp RET  &trans    &kp CLCK &kp K_MUTE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         raise_layer {
@@ -48,7 +48,7 @@
                             &trans    &kp LGUI      &kp LGUI      &trans         &kp SPACE  &kp RET    &trans &kp K_MUTE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 Photoshop_layer {
             display-name = "PTS";
@@ -60,7 +60,7 @@ Photoshop_layer {
                  &trans &kp LALT  &kp LGUI  &kp SPACE       &kp RET  &trans    &kp CLCK &kp K_MUTE
             >;
 
-            sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW &inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
     };
 };
