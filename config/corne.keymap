@@ -58,17 +58,17 @@ Photoshop_layer {
 
             sensor-bindings = <&inc_dec_kp LEFT_ARROW RIGHT_ARROW &inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
-mouse_layer {
-            display-name = "MOUSE";
-
-            bindings = <
-&trans    &trans  &trans    &trans    &trans    &trans           &trans          &trans             &mmv MOVE_UP       &trans             &trans           &trans
-&trans    &trans  &mkp LCLK &mkp MCLK &mkp RCLK &trans           &msc SCRL_LEFT  &mmv MOVE_LEFT     &mmv MOVE_DOWN     &mmv MOVE_RIGHT    &msc SCRL_RIGHT  &trans
-&trans    &trans  &trans    &trans    &trans    &trans           &trans          &mkp LCLK          &mkp MCLK          &mkp RCLK          &trans           &trans
-                           &trans &trans &trans &trans           &msc SCRL_UP &msc SCRL_DOWN &trans &trans
-            >;
-
-            sensor-bindings = <&inc_dec_kp PG_DN PG_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
-        };
+// mouse_layer {
+//            display-name = "MOUSE";
+//
+//            bindings = <
+// &trans    &trans  &trans    &trans    &trans    &trans           &trans          &trans             &mmv MOVE_UP       &trans             &trans           &trans
+// &trans    &trans  &mkp LCLK &mkp MCLK &mkp RCLK &trans           &msc SCRL_LEFT  &mmv MOVE_LEFT     &mmv MOVE_DOWN     &mmv MOVE_RIGHT    &msc SCRL_RIGHT  &trans
+// &trans    &trans  &trans    &trans    &trans    &trans           &trans          &mkp LCLK          &mkp MCLK          &mkp RCLK          &trans           &trans
+//                           &trans &trans &trans &trans           &msc SCRL_UP &msc SCRL_DOWN &trans &trans
+//            >;
+//
+//            sensor-bindings = <&inc_dec_kp PG_DN PG_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
+//        };
     };
 };
