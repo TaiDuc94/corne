@@ -71,7 +71,7 @@ Photoshop_layer {
                             &trans &trans &trans &trans           &msc SCRL_UP &msc SCRL_DOWN &trans &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_DN PG_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
+            sensor-bindings = <&inc_dec_kp PG_DN PG_UP &inc_dec_kp C_BRI_DEC C_BRI_INC>;
         };
     };
 };
